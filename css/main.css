@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'New Amsterdam', sans-serif;
     font-weight: 300;
     color: beige;
     font-size:  17px;
-
 }
 
 a {
@@ -27,6 +28,7 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
+
 
 header {
     padding: 50px 0;
