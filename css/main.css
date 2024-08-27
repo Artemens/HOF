@@ -21,13 +21,10 @@ a {
 .wrapper {
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(173, 0, 0) 100%);
     width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
 }
 
 .container {
-    width: auto;
+    width: 1200px;
     margin: 0 auto;
 }
 
