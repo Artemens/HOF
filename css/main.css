@@ -8,8 +8,7 @@ body {
     font-weight: 300;
     color: beige;
     font-size:  17px;
-    width: 100%;
-    height: 100%;
+
 }
 
 a {
@@ -25,9 +24,6 @@ a {
     margin: 0;
     padding: 0;
     height: 100%;
-     background-size: cover;
-     background-positions: center;
-     background-repeat: no-repeat;
 }
 
 .container {
