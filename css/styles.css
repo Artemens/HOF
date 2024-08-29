@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+body {
+    font-family: 'New Amsterdam', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(173, 0, 0) 100%);
+    color: white;
+    font-size:  17px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: left;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid #920000;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family: "Nerko One", cursive;
+    font-weight: 700;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+    text-decoration: none;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header nav ul li a {color: beige;}
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #dc6a00;
+    border-radius: 10px;
+}
+header nav ul li:not(.active):not(.btn) a:hover {
+border-bottom: 5px solid #920000;
+}
+
+header nav ul li.btn a, .email .block button {
+    background: #FA9021;
+    padding: 9px 17px;
+    border: 5px;
+    transition: all 500ms ease;
+}
+
+header nav ul li.btn a:hover, .email .block button:hover {
+    background: hsl(1, 91%, 18%);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sticker {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    color:  #fff;
+    transition: transform 0.3s;
+}
+
+.sticker:hover {
+    transform: scale(1.05);
+}
+
+.sticker img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #ff3d00;
+    color: #fff;
+}
