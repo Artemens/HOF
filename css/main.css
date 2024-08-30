@@ -387,3 +387,134 @@ footer .block ul li {
         transform: scale(1.1);
     }
 
+    .logos{
+        padding-bottom: 100px;
+        position: relative;
+    }
+    .logos h3 {
+            font-family: "Nerko One", cursive;
+            font-weight: 300;
+            width: 700px;
+            font-size: 150px;
+            margin-left: 200px;
+            text-align: center;
+    }
+    .logos p {
+        margin-left: 200px;
+        width: 700px;
+        font-size: 20px;
+        height: 250px;
+        text-align: center;
+}
+
+.logos .block {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+    width: 20%;
+    margin: 30px 2%;
+}
+.logos .block1 {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    width: 20%;
+    margin: 30px 2%;
+}
+.logos .block2 {
+    position: absolute;
+    top: 600px;
+    right: 50px;
+    width: 20%;
+    margin: 30px 2%;
+}
+.logos .block1 img {
+    margin-bottom: 15px;
+}
+.logos .block img {
+    margin-bottom: 15px;
+}
+
+.logos .block3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+main {
+    padding: 40px;
+    background: url('/img/Fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.story-section {
+    text-align: center;
+}
+
+.story {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.story h1 {
+    font-size: 2.5em;
+}
+
+.story h2 {
+    font-size: 2em;
+}
+
+.stroy p {
+    font-size: 1.2em;
+}
+
+.aibody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, black, red);
+    color: white;
+    text-align: center;
+}
+
+.aibody h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    color: orange;
+}
+
+.bots {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.bot {
+    background: rgba(255, 165, 0, 0.8); /* Оранжевый фон с прозрачностью */
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.bot:hover {
+    transform: scale(1.05);
+}
+
+.bot img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bot h2 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.bot p {
+    font-size: 1.2em;
+}
+
