@@ -33,6 +33,7 @@ a {
 header {
     text-align: left;
     padding: 50px 20px;
+    border-bottom: 5px solid #920000;
 }
 
 header .logo, footer .block .logo{
@@ -339,6 +340,7 @@ padding: 100px 0;
 footer {
     background: #000;
     padding: 50px 0;
+    border-top: 5px solid #920000;
 }
 
 footer .block {
