@@ -444,9 +444,9 @@ footer .block ul li {
 }
 
 main {
-    padding: 40px;
-    background: url('img/Fons.jpg') no-repeat center center fixed;
+    background: url('img/Fons.png') no-repeat center center fixed;
     background-size: cover;
+    padding: 80px 0;
 }
 
 .story-section {
