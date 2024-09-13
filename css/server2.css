@@ -168,7 +168,7 @@ main {
     border: 2px solid #ccc; /* Рамка */
     padding: 20px; /* Отступ */
     text-align: center; /* Выравнивание текста по центру */
-    background: rgba(255, 17, 0, 0.8);
+    background-color: rgba(255, 17, 0, 0.8);
     border-radius: 10px; /* Скругленные углы */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
   }
